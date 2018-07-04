@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card">
+    <div class="text-center">
+        <h2>User List</h2>
+    </div>
+      
+      <ul>
+        <li *ngFor="let item of userList; let i = index">
+          {{item.first_name}} {{item.last_name}}
+        </li>
+      </ul>
+  
+</div>
